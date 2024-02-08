@@ -1,0 +1,314 @@
+:root{
+    --primaryfont: 'Abril Fatface', serif;
+    --secondaryfont:  'Arimo', sans-serif;
+    --primarycolor: #222222;
+    --secondarycolor: #444444;
+    --thirtcolor:#08baf0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+     list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* common end */
+/* navber st */
+nav .row{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fef8ff;
+    line-height: 0;
+}
+nav .row ul li{
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 20px;
+    color: var(--secondarycolor);
+    font-family: var(--secondaryfont);
+}
+nav .row ul li a:hover{
+    color: var(--thirtcolor);
+}
+nav .row ul li a button{
+    padding: 20px;
+    background-color: var(--thirtcolor);
+    border-radius: 5px;
+    color: white;
+    border-color: var(--thirtcolor);
+}
+nav .logo{
+    width: 20%;
+}
+nav .manu{
+    width: 80%;
+}
+/* navber close */
+/* banner st */
+#banner .row .manu{
+    width: 550px;
+}
+#banner .row{
+    align-items: center;
+    justify-content: space-between;
+}
+#banner .row .manu .logo{
+    background-color: #fef8ff;
+}
+#banner .row .manu h4{
+    font-family: var(--primaryfont);
+    font-size: 58px;
+    color: var(--primarycolor);
+}
+#banner .row .manu p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: var(--secondarycolor);
+    font-family: var(--secondaryfont);
+}
+/* banner end */
+/* popular categories start */
+#categories{
+    text-align: center;
+    margin-top: 122px;
+}
+#categories h6{
+    font-family: var(--primaryfont);
+    font-size: 32px;
+    color: var(--primarycolor);
+}
+
+#categories p{
+    font-family: var(--secondaryfont);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+#categories .row .card{
+    width: calc(25% - 60px);
+    margin: 0 15px;
+    width: 271px;
+    height: 271px;
+}
+#categories .row .card{
+    margin-top: 95px;
+    padding: 74px 35px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+#categories .row .card:hover{
+    background-color: var(--thirtcolor);
+    color: white;
+    transform: scale(1.3);
+}
+#categories .row .card h5{
+    font-size: 24px;
+    font-family: var(--primaryfont);
+    color: var(--primarycolor);
+    font-weight: 400;
+    line-height: 1.5;
+}
+#categories .row .card p{
+    font-size: 14px;
+    font-family: var(--secondaryfont);
+    color: var(--secondarycolor);
+}
+#categories .row .card a{
+    margin-top: 30px;
+    padding: 17px 20px;
+    color: #08baf0;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+/* popular categories end */
+
+
+/* how start */
+#how{
+    text-align: center;
+    margin-top: 100px;
+}
+#how h4{
+    font-size: 32px;
+    font-family: var(--primaryfont);
+    color: var(--primarycolor);
+    font-weight: 400;
+}
+#how p{
+    font-size: 16px;
+    font-family: --secondaryfont;
+    color: var(--secondarycolor);
+}
+#how .row .card{
+    width: calc(33.33% - 40px);
+    margin: 60px 20px 178px 0px;
+    text-align: center;
+    width: 364px;
+    height: 230px;
+    
+}
+#how .row .card h5{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: var(--primaryfont)   
+}
+#how .row .card p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: var(--secondaryfont);
+    color: var(--secondarycolor);
+}
+/* how end */
+
+/* top start */
+#top .top-head{
+    text-align: center;     
+}
+#top .top-head h4{
+    font-size: 32px;
+    font-family: var(--primaryfont);
+    color: var(--primarycolor);
+    font-weight: 400;
+}
+#top .top-head p{
+    font-size: 16px;
+    font-family: --secondaryfont;
+    color: var(--secondarycolor);   
+}
+
+#top .row .cardpic{
+    margin: 60px 0;
+    width: 33.33%;
+}
+#top .row .cardpic img{
+    padding: 0 15px;
+    display: inline-block
+}
+#top .footer{
+    justify-content: space-between;
+    
+}
+#top .footer .row a{
+    font-size: 20px;
+    font-family: var(--secondaryfont);
+    padding: 20px;
+    background-color: var(--thirtcolor);
+    color: white;
+  
+}
+#top .footer .row p{
+    font-size: 16px;
+    font-family: var(--secondaryfont);
+    color: var(--secondarycolor);
+}
+#top .footer{
+    padding: 75px o 94px;
+}
+#top {
+    background-color: #f5f5f5;
+}
+
+/* top end */
+
+
+/* our milestone start */
+#milestone .heading{
+text-align: center;
+padding: 130px 0 105px;
+}
+#milestone .heading h3{
+    font-size: 32px;
+    font-family: var(--primaryfont);
+    color: var(--primarycolor);
+    font-weight: 400;
+}
+#milestone .heading img{
+    margin-top: 18px;
+}
+
+#milestone .row .mileston1{
+    width: 50%;
+  
+
+}
+#milestone{
+    padding-bottom: 100px;
+}
+
+/* our milestone end */
+
+/* footer start */
+#footerjob .logo img{
+    margin-bottom: 90px;
+}
+#footerjob{
+    background-color: black;
+}
+
+#footerjob .container .logo{
+text-align: center;
+}
+#footerjob .container .row .about{
+    width: calc(30% - 35px);
+    margin-right: 35px;
+    color: white;
+    
+}
+#footerjob .container .row .about h5{
+    font-size: 24px;
+    font-family: var(--primaryfont);
+    color: white;
+}
+#footerjob .container .row .about p{
+    font-size: 16px;
+    font-family: var(--secondaryfont);
+    margin-top: 32px;
+}
+#footerjob .container .row .about a{
+    margin-top: 30px;
+}
+#footerjob .container .row .about a:hover{
+    background-color: #08baf0;
+
+}
+#footerjob .container .row .candedate{
+    width: 20%;   
+}
+#footerjob .container .row .candedate h5{
+    font-size: 24px;
+    font-family: var(--primaryfont);
+    color: white;
+}
+#footerjob .container .row .employee{
+    width: 20%;   
+}
+#footerjob .container .row .employee h5{
+    font-size: 24px;
+    font-family: var(--primaryfont);
+    color: white;
+}
+#footerjob .container .row .subscriber{
+    width: 30%;   
+}
+#footerjob .container .row .subscriber h5{
+    font-size: 24px;
+    font-family: var(--primaryfont);
+    color: white;
+}
+
+
